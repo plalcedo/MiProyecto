@@ -1,0 +1,174 @@
+body {
+  background-color: #100b56;
+}
+/* Este div es el cuadro blanco onde va todo el contenido */
+.divPrincipal {
+  background-image: url(../imag/papel.jpg);
+  background-color: white;
+  max-width: 75%;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+/* Este div me va a ayudar a contener los botones y las imágenes */
+.otroDiv {
+  text-align: center;
+}
+/* Las siguientes tres clases están diseñadas para hacer un botón el cual
+pueda volver al principio de las páginas largas */
+.divBtn {
+  text-align: center;
+  display: block;
+}
+.divTeSigue {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  word-wrap: break-word;
+  background-color: white;
+}
+.btnTeSigue {
+  height: 50px;
+  width: 50px;
+  position: left bottom;
+}
+/* Las siguientes dos clases me ayudan a acomodar el tamaño y la posición de las imagenes en la portada principal y en la sección de personales*/
+.imagenPrincipal {
+  width: 540px;
+  height: 420px;
+  float: left;
+  padding-right: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.imagenPersonales {
+  width: 400px;
+  height: 300px;
+}
+/* Clase para limpiar los elementos flotantes */
+.clr {
+  clear: both;
+}
+/* Texto para la página index.html */
+.textoPortada {
+  font-family:sans-serif;
+  font-weight:bold;
+  font-size: 15px;
+}
+/* Texto para el resto de la página */
+.textoParrafos {
+  font-size: 20px;
+  text-align: justify;
+  font-family: arial, 'PT sans', Verdana, sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* Las siguientes clases e ID son referentes a los botones utilizados en la página */
+.botonesPrincipales {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.botonesPersonales {
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.botonesPag {
+  margin-bottom: 20px;
+  padding: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#botones {
+  background-color: #519bde;
+  border-radius: 5px;
+}
+#botones:hover {
+  background: rgba(0,0,0,0);
+  color: #3a7999;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}
+/* Este ID funciona para cambiar las viñetas utilizadas en index.html */
+#vinetas {
+  list-style-image: url(../imag/flechas.png);
+  text-align: center;
+}
+/* Modifican las etiquetas de h1-h2-h3 */
+h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+  color: #54534f;
+  font-family: monospace;
+}
+h2 {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+  color: #54534f;
+  font-family: monospace;
+}
+h3 {
+  text-align: left;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #54534f;
+  font-family: monospace;
+}
+/* Cajas utilizadas para los elementos flotantes */
+#box-1 {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+#box-2 {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+/* Diversas clases de tamaños de fotografías, utilizar dependiendo lo necesario */
+.fotosFamilia {
+  display: inline;
+  width: 280px;
+  height: 320px;
+}
+.fotos1 {
+  display: inline;
+  width: 300px;
+  height: 280px;
+  padding: 30px;
+}
+.fotos2 {
+  display: inline;
+  width: 240px;
+  height: 180px;
+  padding: 25px;
+}
+.fotos3 {
+  display: inline;
+  width: 300px;
+  height: 400px;
+  padding: 5px;
+  padding-bottom: 30px;
+}
+.fotos4 {
+  display: inline;
+  width: 700px;
+  height: 350px;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+/* ID que me permite centrar algún texto */
+#textoCentrar {
+  text-align: center;
+}
